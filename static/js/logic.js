@@ -22,7 +22,7 @@ let baseMaps = {
 
 // Map object
 let map = L.map("map", {
-    center: [53.58, -113.5],
+    center: [53.60, -113.5],
     zoom: 11,
     layers: [satellite]
 });
