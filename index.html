@@ -25,17 +25,52 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row d-flex justify-content-center mt-5 mb-3">
-            <h1>Edmonton Stairs Project</h1>
+        <div class="row d-flex justify-content-center text-center mt-5 mb-3 ml-5 mr-5">
+            <h1>Edmonton Stairs Project (ESP)</h1>
         </div>
 
-        <div class="row d-flex justify-content-center mb-3">
-            <p>A map of outdoor staircases in Edmonton, Alberta, Canada.</p>
+        <div class="row d-flex justify-content-center mb-3 ml-5 mr-5">
+            <p>An interactive map of outdoor staircases in Edmonton, Alberta, Canada.</p>
         </div>
 
-        <div class="row d-flex justify-content-center">
-            <!--map-->
-            <div id="map"></div>
+        <div class="row d-flex justify-content-center ml-5 mr-5">
+            <div class="col-md-8 d-flex justify-content-end mb-3">
+                <!--map-->
+                <div id="map"></div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-start mb-5 pb-5">
+                <div class="card text-dark" style="max-height:600px">
+                    <h5 class="card-header text-center"><b>Staircases</b></h5>
+                    <div class="card-body overflow-auto">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <p class="card-text"><b>Clareview</b><br>Lat, Long: 53.601391, -113.372253<br>Stair Count: 111</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="card-text"><b>Concordia College</b><br>Lat, Long: 53.558961, -113.442285<br>Stair Count: 244</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="card-text"><b>Connor's Hill</b><br>Lat, Long: 53.534811, -113.468342</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="card-text"><b>Fairmont Hotel Macdonald</b><br>Lat, Long: 53.538805, -113.489561<br>Stair Count: 201-204</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="card-text"><b>Glenora/Ezio Faraone</b><br>Lat, Long: 53.532510, -113.511644<br>Stair Count: 186-202</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="card-text"><b>Grandview/Whitemud Park</b><br>Lat, Long: 53.501849, -113.559412<br>Stair Count: 242-261</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="card-text"><b>Laurier Drive</b><br>Lat, Long: 53.508143, -113.566463<br>Stair Count: 165</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="card-text"><b>Wolf Willow</b><br>Lat, Long: 53.499416, -113.592445<br>Stair Count: 200-201</p>
+                            </li>
+                          </ul>
+                    </div>
+                  </div>
+            </div>
         </div>
 
         <!-- The Modal/Lightbox -->
