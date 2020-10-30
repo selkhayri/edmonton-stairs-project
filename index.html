@@ -22,6 +22,18 @@
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
     
+    <script>
+        document.addEventListener("keydown", function(e){
+          // DISABLE CONTROL AND ALL FUNCTION KEYS
+          if (e.ctrlKey || (e.keyCode>=112 && e.keyCode<=123)) {
+            e.stopPropagation();
+            e.preventDefault();
+          }
+        });
+        document.addEventListener("contextmenu", function(e){
+            e.preventDefault();
+        }, false);
+    </script>
 </head>
 <body>
     <div class="container-fluid">
